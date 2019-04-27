@@ -54,8 +54,13 @@ formatter.step({
   "name": "click on save btn",
   "keyword": "Then "
 });
-formatter.examples({
+formatter.step({
   "line": 13,
+  "name": "close the browser",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 14,
   "name": "",
   "description": "",
   "id": "free-crm-create-contacts;user-is-able-to-create-a-new-contact;",
@@ -68,7 +73,7 @@ formatter.examples({
         "lastname",
         "position"
       ],
-      "line": 15,
+      "line": 16,
       "id": "free-crm-create-contacts;user-is-able-to-create-a-new-contact;;1"
     },
     {
@@ -79,7 +84,7 @@ formatter.examples({
         "alam",
         "qalead"
       ],
-      "line": 16,
+      "line": 17,
       "id": "free-crm-create-contacts;user-is-able-to-create-a-new-contact;;2"
     },
     {
@@ -90,14 +95,14 @@ formatter.examples({
         "Ali",
         "chairman"
       ],
-      "line": 17,
+      "line": 18,
       "id": "free-crm-create-contacts;user-is-able-to-create-a-new-contact;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 16,
+  "line": 17,
   "name": "User is able to create a new contact",
   "description": "",
   "id": "free-crm-create-contacts;user-is-able-to-create-a-new-contact;;2",
@@ -153,18 +158,23 @@ formatter.step({
   "name": "click on save btn",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 13,
+  "name": "close the browser",
+  "keyword": "Then "
+});
 formatter.match({
   "location": "LoginStepDefination.User_is_already_on_LoginPage()"
 });
 formatter.result({
-  "duration": 6696995446,
+  "duration": 7244727491,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.tile_of_loginPage_is_FreeCRM()"
 });
 formatter.result({
-  "duration": 71772328,
+  "duration": 77577028,
   "status": "passed"
 });
 formatter.match({
@@ -181,28 +191,28 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 734516025,
+  "duration": 886509440,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_click_on_login_btn()"
 });
 formatter.result({
-  "duration": 2394491222,
+  "duration": 1860470825,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_is_on_homepage()"
 });
 formatter.result({
-  "duration": 12094764,
+  "duration": 9871923,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_click_on_new_contactlink()"
 });
 formatter.result({
-  "duration": 1081974812,
+  "duration": 1488838761,
   "status": "passed"
 });
 formatter.match({
@@ -223,18 +233,25 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_contact_deatails_and_and(String,String,String)"
 });
 formatter.result({
-  "duration": 403738801,
+  "duration": 412480917,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.click_on_save_btn()"
 });
 formatter.result({
-  "duration": 796977913,
+  "duration": 870911074,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDefination.close_the_browser()"
+});
+formatter.result({
+  "duration": 702410571,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 17,
+  "line": 18,
   "name": "User is able to create a new contact",
   "description": "",
   "id": "free-crm-create-contacts;user-is-able-to-create-a-new-contact;;3",
@@ -290,18 +307,23 @@ formatter.step({
   "name": "click on save btn",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 13,
+  "name": "close the browser",
+  "keyword": "Then "
+});
 formatter.match({
   "location": "LoginStepDefination.User_is_already_on_LoginPage()"
 });
 formatter.result({
-  "duration": 7093463619,
+  "duration": 5339633518,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.tile_of_loginPage_is_FreeCRM()"
 });
 formatter.result({
-  "duration": 10866599,
+  "duration": 8316620,
   "status": "passed"
 });
 formatter.match({
@@ -318,28 +340,28 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 341831555,
+  "duration": 843831170,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_click_on_login_btn()"
 });
 formatter.result({
-  "duration": 2050256366,
+  "duration": 2430056662,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_is_on_homepage()"
 });
 formatter.result({
-  "duration": 6132695,
+  "duration": 9961299,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.user_click_on_new_contactlink()"
 });
 formatter.result({
-  "duration": 1725534435,
+  "duration": 992773846,
   "status": "passed"
 });
 formatter.match({
@@ -360,14 +382,21 @@ formatter.match({
   "location": "LoginStepDefination.user_enters_contact_deatails_and_and(String,String,String)"
 });
 formatter.result({
-  "duration": 426628749,
+  "duration": 442194616,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.click_on_save_btn()"
 });
 formatter.result({
-  "duration": 829125702,
+  "duration": 836735872,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDefination.close_the_browser()"
+});
+formatter.result({
+  "duration": 707128226,
   "status": "passed"
 });
 });

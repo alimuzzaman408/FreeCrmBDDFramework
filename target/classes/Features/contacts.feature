@@ -10,6 +10,7 @@ Then user is on homepage
 Then user click on new contactlink
 Then user enters contact deatails "<firstname>" and "<lastname>" and "<position>"
 Then click on save btn
+Then close the browser
 Examples:
 
 |username |password |firstname|lastname|position|

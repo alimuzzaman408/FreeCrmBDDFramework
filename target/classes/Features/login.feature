@@ -20,20 +20,13 @@ Then user is on homepage
 Then close the browser
 
 Examples:
-      | username | password |
-      | shapanusa|Zerin1994 |
-      |Tom       | Test1    |
-      |Jhon      |Test2     |
+      | username    | password |
+      | shapanusa   |Zerin1994 |
+      |   Tom       | Test1    |
+      |   Jhon      | Test2    |
 
 
 
 
 
 
-#Scenario: User is able to create a new contact
-#Given user is on homepage
-#When user move over on contact link
-#Then user click on new contactlink
-#Then user enters contact deatails firstname and lastname
-#Then click on save btn
-#Then verify new contact created
