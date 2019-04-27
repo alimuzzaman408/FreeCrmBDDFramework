@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="24.676401">
+<testcase classname="Free CRM create contacts" name="User is able to create a new contact" time="12.192561">
+<system-out><![CDATA[Given User is already on LoginPage..........................................passed
+When tile of loginPage is FreeCRM...........................................passed
+Then User enters "shapanusa" and "Zerin1994"................................passed
+Then user click on login btn................................................passed
+Then user is on homepage....................................................passed
+Then user click on new contactlink..........................................passed
+Then user enters contact deatails "Zerin" and "alam" and "qalead"...........passed
+Then click on save btn......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM create contacts" name="User is able to create a new contact 2" time="12.48384">
+<system-out><![CDATA[Given User is already on LoginPage..........................................passed
+When tile of loginPage is FreeCRM...........................................passed
+Then User enters "Shapanusa" and "Zerin1994"................................passed
+Then user click on login btn................................................passed
+Then user is on homepage....................................................passed
+Then user click on new contactlink..........................................passed
+Then user enters contact deatails "Mohammad" and "Ali" and "chairman".......passed
+Then click on save btn......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
