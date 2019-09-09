@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="25.16443">
-<testcase classname="Free CRM create contacts" name="User is able to create a new contact" time="13.553798">
-<system-out><![CDATA[Given User is already on LoginPage..........................................passed
-When tile of loginPage is FreeCRM...........................................passed
-Then User enters "shapanusa" and "Zerin1994"................................passed
-Then user click on login btn................................................passed
-Then user is on homepage....................................................passed
-Then user click on new contactlink..........................................passed
-Then user enters contact deatails "Zerin" and "alam" and "qalead"...........passed
-Then click on save btn......................................................passed
-Then close the browser......................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.151104">
+<testcase classname="Free Crm Application testing" name="Search a deal" time="0.150447">
+<system-out><![CDATA[Given This is a deal test...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM create contacts" name="User is able to create a new contact 2" time="11.610632">
-<system-out><![CDATA[Given User is already on LoginPage..........................................passed
-When tile of loginPage is FreeCRM...........................................passed
-Then User enters "Shapanusa" and "Zerin1994"................................passed
-Then user click on login btn................................................passed
-Then user is on homepage....................................................passed
-Then user click on new contactlink..........................................passed
-Then user enters contact deatails "Mohammad" and "Ali" and "chairman".......passed
-Then click on save btn......................................................passed
-Then close the browser......................................................passed
+<testcase classname="Free Crm Application testing" name="search  a email" time="0.000123">
+<system-out><![CDATA[Given This is a email test..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free Crm Application testing" name="Search a form" time="0.000414">
+<system-out><![CDATA[Given This is a form test...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free Crm Application testing" name="Search a doc" time="0.00012">
+<system-out><![CDATA[Given This is a doc test....................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

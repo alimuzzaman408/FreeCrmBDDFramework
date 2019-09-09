@@ -14,8 +14,8 @@ Then close the browser
 Examples:
 
 |username |password |firstname|lastname|position|
-|shapanusa|Zerin1994|Zerin    |alam    |qalead  |
-|Shapanusa|Zerin1994|Mohammad |Ali     |chairman|
+|alimuzzaman408|Zerin1994|Zerin    |alam    |qalead  |
+|alimuzzaman408|Zerin1994|Mohammad |Ali     |chairman|
 
 
 

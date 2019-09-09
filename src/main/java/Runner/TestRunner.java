@@ -9,15 +9,20 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 	features="C:/Eclipse Java/JavaWorkSpace/FreecrmBDDFramework/sr"
-			+ "c/main/java/Features/contacts.feature",//Path of the feature file.
+			+ "c/main/java/Features/tagging.feature",//Path of the feature file.
 			
 	glue={"stepDefination"},//Path of the step definition file
 	
 	monochrome=true,//display the console output in a proper readable format
 	
-	format={"pretty","html:test-output","junit:junit_xml/cucumber.xml"},//to generate different type report
+	format={"pretty","html:test_output","junit:junit_xml/cucumber.xml"},//to generate different type report
 	
 	strict=true,//check if any step is not defined in the step definition file
+
+	
+	
+	
+	tags={"~@End2End","~@SmokeTest","@RegressionTest"},
 	
 	dryRun=false//is check mapping is proper between feature file and step definition file.
 		

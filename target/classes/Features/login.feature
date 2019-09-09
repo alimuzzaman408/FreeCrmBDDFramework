@@ -4,7 +4,7 @@ Feature: Free CRM Login Feature
 #
 #Given User is already on LoginPage
 #When tile of loginPage is FreeCRM
-#Then User enters "shapanusa" and "Zerin1994"
+#Then User enters "alimuzzaman408" and "Zerin1994"
 #Then user click on login btn
 #Then user is on homepage
 #Then close the browser
@@ -20,10 +20,10 @@ Then user is on homepage
 Then close the browser
 
 Examples:
-      | username    | password |
-      | shapanusa   |Zerin1994 |
-      |   Tom       | Test1    |
-      |   Jhon      | Test2    |
+      | username         | password |
+      | alimuzzaman408   |Zerin1994 |
+      |   Tom            | Test1    |
+      |   Jhon           | Test2    |
 
 
 
